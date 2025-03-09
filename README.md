@@ -69,6 +69,14 @@ One of the main struggles that happens a lot (personally from QWER Hacks and Ath
 
 By learning one library designed to handle the features that is required, such as state management, time and capital spent on attempting to understand how to implement the confusing mess of both Axios and Redux combined. Also, time is saved by not asking AI for spaghetti code and realizing that it doesn't work.
 
+### Resources
+
+Some of these resources linked below might be helpful during hackathons.
+
+- [Mesh Graident](https://meshgradient.com/)
+- [Haikei](https://haikei.app)
+- [RealFaviconGenerator](https://realfavicongenerator.net/)
+
 ### Inspiration
 
 This template is inspired by a lot of current and past projects, including [ACM @ UC Merced's Website](https://github.com/UCMercedACM/Chapter-Website), past hackathons projects (namely [Soteria](https://devpost.com/software/soteria-i1on52)), and many others.
