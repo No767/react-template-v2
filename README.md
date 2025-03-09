@@ -49,6 +49,9 @@ npm run dev
 
 This template uses several components that will be explained below.
 
+- [shadcn/ui](#shadcnui)
+- [Tanstack Query](#tanstack-query)
+
 ### shadcn/ui
 
 shadcn/ui isn't another UI component library, but rather it's the library to build UI components. shadcn/ui explains the rationale perfectly:
@@ -66,10 +69,10 @@ One of the main struggles that happens a lot (personally from QWER Hacks and Ath
 
 By learning one library designed to handle the features that is required, such as state management, time and capital spent on attempting to understand how to implement the confusing mess of both Axios and Redux combined. Also, time is saved by not asking AI for spaghetti code and realizing that it doesn't work.
 
-## Inspiration
+### Inspiration
 
 This template is inspired by a lot of current and past projects, including [ACM @ UC Merced's Website](https://github.com/UCMercedACM/Chapter-Website), past hackathons projects (namely [Soteria](https://devpost.com/software/soteria-i1on52)), and many others.
 
-## License
+### License
 
 [MIT License](./LICENSE)
