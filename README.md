@@ -44,3 +44,32 @@ To run such a feature, use the following below:
 ```bash
 npm run dev
 ```
+
+## Details
+
+This template uses several components that will be explained below.
+
+### shadcn/ui
+
+shadcn/ui isn't another UI component library, but rather it's the library to build UI components. shadcn/ui explains the rationale perfectly:
+
+> Often, you end up wrapping library components, writing workarounds to override styles, or mixing components from different libraries with incompatible APIs.
+
+In short, combined with the deep coupling between `shadcn/ui` and TailwindCSS, development can be done much faster than before. We don't need to put more resources into shimming library components, but directly integrate them into our app.
+
+> [!TIP]
+> If you want to read more, the information can be found here: <https://ui.shadcn.com/docs>
+
+### Tanstack Query
+
+One of the main struggles that happens a lot (personally from QWER Hacks and AthenaHacks), is that the frontend does not get coupled with the backend in time. It's critical that is the case, so this template integrates [TanStack Query](https://tanstack.com/query/latest), replacing both [Axios](https://axios-http.com/) and [Redux](https://redux.js.org/).
+
+By learning one library designed to handle the features that is required, such as state management, time and capital spent on attempting to understand how to implement the confusing mess of both Axios and Redux combined. Also, time is saved by not asking AI for spaghetti code and realizing that it doesn't work.
+
+## Inspiration
+
+This template is inspired by a lot of current and past projects, including [ACM @ UC Merced's Website](https://github.com/UCMercedACM/Chapter-Website), past hackathons projects (namely [Soteria](https://devpost.com/software/soteria-i1on52)), and many others.
+
+## License
+
+[MIT License](./LICENSE)
